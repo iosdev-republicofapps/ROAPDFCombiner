@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		D60408C21A590D3000DC66A0 /* ROAPDFCombiner.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ROAPDFCombiner.podspec; sourceTree = "<group>"; };
-		D60408C31A590DB500DC66A0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D60408C31A590DB500DC66A0 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		D60408C41A59113C00DC66A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6802B341A590BFD00D9665F /* libROAPDFCombiner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libROAPDFCombiner.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6802B371A590BFD00D9665F /* ROAPDFCombiner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROAPDFCombiner.h; sourceTree = "<group>"; };
 		D6802B391A590BFD00D9665F /* ROAPDFCombiner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROAPDFCombiner.m; sourceTree = "<group>"; };
@@ -55,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				D60408C21A590D3000DC66A0 /* ROAPDFCombiner.podspec */,
-				D60408C31A590DB500DC66A0 /* LICENSE.txt */,
+				D60408C31A590DB500DC66A0 /* LICENSE.md */,
+				D60408C41A59113C00DC66A0 /* README.md */,
 			);
 			name = "Pod Metadata";
 			sourceTree = "<group>";
