@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6802B381A590BFD00D9665F /* ROAPDFCombiner.h in Headers */ = {isa = PBXBuildFile; fileRef = D6802B371A590BFD00D9665F /* ROAPDFCombiner.h */; };
+		D6802B3A1A590BFD00D9665F /* ROAPDFCombiner.m in Sources */ = {isa = PBXBuildFile; fileRef = D6802B391A590BFD00D9665F /* ROAPDFCombiner.m */; };
+		D6802B401A590BFE00D9665F /* libROAPDFCombiner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6802B341A590BFD00D9665F /* libROAPDFCombiner.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6802B411A590BFE00D9665F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6802B2C1A590BFD00D9665F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6802B331A590BFD00D9665F;
+			remoteInfo = ROAPDFCombiner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6802B341A590BFD00D9665F /* libROAPDFCombiner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libROAPDFCombiner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6802B371A590BFD00D9665F /* ROAPDFCombiner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROAPDFCombiner.h; sourceTree = "<group>"; };
+		D6802B391A590BFD00D9665F /* ROAPDFCombiner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROAPDFCombiner.m; sourceTree = "<group>"; };
+		D6802B3F1A590BFE00D9665F /* ROAPDFCombinerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROAPDFCombinerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6802B451A590BFE00D9665F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6802B311A590BFD00D9665F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6802B3C1A590BFE00D9665F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6802B401A590BFE00D9665F /* libROAPDFCombiner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6802B2B1A590BFD00D9665F = {
+			isa = PBXGroup;
+			children = (
+				D6802B361A590BFD00D9665F /* ROAPDFCombiner */,
+				D6802B431A590BFE00D9665F /* ROAPDFCombinerTests */,
+				D6802B351A590BFD00D9665F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6802B351A590BFD00D9665F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6802B341A590BFD00D9665F /* libROAPDFCombiner.a */,
+				D6802B3F1A590BFE00D9665F /* ROAPDFCombinerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6802B361A590BFD00D9665F /* ROAPDFCombiner */ = {
+			isa = PBXGroup;
+			children = (
+				D6802B371A590BFD00D9665F /* ROAPDFCombiner.h */,
+				D6802B391A590BFD00D9665F /* ROAPDFCombiner.m */,
+			);
+			path = ROAPDFCombiner;
+			sourceTree = "<group>";
+		};
+		D6802B431A590BFE00D9665F /* ROAPDFCombinerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6802B441A590BFE00D9665F /* Supporting Files */,
+			);
+			path = ROAPDFCombinerTests;
+			sourceTree = "<group>";
+		};
+		D6802B441A590BFE00D9665F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6802B451A590BFE00D9665F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D6802B321A590BFD00D9665F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6802B381A590BFD00D9665F /* ROAPDFCombiner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D6802B331A590BFD00D9665F /* ROAPDFCombiner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6802B481A590BFE00D9665F /* Build configuration list for PBXNativeTarget "ROAPDFCombiner" */;
+			buildPhases = (
+				D6802B301A590BFD00D9665F /* Sources */,
+				D6802B311A590BFD00D9665F /* Frameworks */,
+				D6802B321A590BFD00D9665F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ROAPDFCombiner;
+			productName = ROAPDFCombiner;
+			productReference = D6802B341A590BFD00D9665F /* libROAPDFCombiner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6802B3E1A590BFE00D9665F /* ROAPDFCombinerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6802B4B1A590BFE00D9665F /* Build configuration list for PBXNativeTarget "ROAPDFCombinerTests" */;
+			buildPhases = (
+				D6802B3B1A590BFE00D9665F /* Sources */,
+				D6802B3C1A590BFE00D9665F /* Frameworks */,
+				D6802B3D1A590BFE00D9665F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6802B421A590BFE00D9665F /* PBXTargetDependency */,
+			);
+			name = ROAPDFCombinerTests;
+			productName = ROAPDFCombinerTests;
+			productReference = D6802B3F1A590BFE00D9665F /* ROAPDFCombinerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6802B2C1A590BFD00D9665F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "RepublicOfApps, LLC";
+				TargetAttributes = {
+					D6802B331A590BFD00D9665F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D6802B3E1A590BFE00D9665F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D6802B2F1A590BFD00D9665F /* Build configuration list for PBXProject "ROAPDFCombiner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6802B2B1A590BFD00D9665F;
+			productRefGroup = D6802B351A590BFD00D9665F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6802B331A590BFD00D9665F /* ROAPDFCombiner */,
+				D6802B3E1A590BFE00D9665F /* ROAPDFCombinerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6802B3D1A590BFE00D9665F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6802B301A590BFD00D9665F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6802B3A1A590BFD00D9665F /* ROAPDFCombiner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6802B3B1A590BFE00D9665F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6802B421A590BFE00D9665F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6802B331A590BFD00D9665F /* ROAPDFCombiner */;
+			targetProxy = D6802B411A590BFE00D9665F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6802B461A590BFE00D9665F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D6802B471A590BFE00D9665F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D6802B491A590BFE00D9665F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6802B4A1A590BFE00D9665F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6802B4C1A590BFE00D9665F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ROAPDFCombinerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6802B4D1A590BFE00D9665F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ROAPDFCombinerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6802B2F1A590BFD00D9665F /* Build configuration list for PBXProject "ROAPDFCombiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6802B461A590BFE00D9665F /* Debug */,
+				D6802B471A590BFE00D9665F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6802B481A590BFE00D9665F /* Build configuration list for PBXNativeTarget "ROAPDFCombiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6802B491A590BFE00D9665F /* Debug */,
+				D6802B4A1A590BFE00D9665F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6802B4B1A590BFE00D9665F /* Build configuration list for PBXNativeTarget "ROAPDFCombinerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6802B4C1A590BFE00D9665F /* Debug */,
+				D6802B4D1A590BFE00D9665F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6802B2C1A590BFD00D9665F /* Project object */;
+}
